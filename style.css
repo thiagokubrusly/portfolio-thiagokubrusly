@@ -41,7 +41,9 @@
 }
 
 body{
-    background: linear-gradient( to right bottom, var(--azul),  var(--azul-claro), var(--azul-esverdeado), var(--verde-claro), var(--verde-escuro) ) no-repeat;
+    /* background: linear-gradient( to right bottom, var(--azul),  var(--azul-claro), var(--azul-esverdeado), var(--verde-claro), var(--verde-escuro) ) no-repeat; */
+
+    background: #001e04;
 
     color: #EAEAEA;
     font-family: var(--roboto);
@@ -70,14 +72,9 @@ nav{
     margin-bottom: 64px;
 }
 
-.project small {
-    color: var(--textos);
-    font-size: 0.75rem;
-}
-
 .project h1{
     font-size: 2rem;
-    color: var(--textos);
+    color: #f5efef;
 }
 
 .project img{
@@ -98,7 +95,7 @@ nav{
 
 .project p{
     font-size: 1.2rem;
-    color: var(--textos);
+    color: #f5efef;
     line-height: 28px;
 }
 
