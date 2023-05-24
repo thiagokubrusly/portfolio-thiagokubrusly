@@ -76,7 +76,7 @@ function voltarRobotron(){
 }
 
 ///////// Preview do Aluramid ////////////
-const imgEstaticaAluramid= "./assets/imgEstatica-aluramid.JPG";
+const imgEstaticaAluramid= "./assets/imgEstatica-Aluramid.JPG";
 const imgAnimadaAluramid = "./assets/imgAnimada-aluramid.gif";
 
 function trocarAluramid(){
