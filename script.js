@@ -1,3 +1,15 @@
+///////// Preview do Form ////////////
+const imgEstaticaForm= "./assets/imgEstatica-form.JPG";
+const imgAnimadaForm = "./assets/imgAnimada-form.gif";
+
+function trocarForm(){
+    document.getElementById("figuraForm").src = imgAnimadaForm;
+}
+
+function voltarForm(){
+    document.getElementById("figuraForm").src = imgEstaticaForm;
+}
+
 ///////// Preview do Slider ////////////
 const imgEstaticaSlider= "./assets/imgEstatica-slider.JPG";
 const imgAnimadaSlider = "./assets/imgAnimada-slider.gif";
